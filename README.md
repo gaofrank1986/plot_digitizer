@@ -111,7 +111,8 @@ The buttons are quite self explanatory,
 
     ```
   
-
+    *Note: The log X value is there just in case the x axis is in log scale. Meaning that **log10(X value) is not Log X value**
+    
 * **Check Input Data**:  Will print the current input data that was given.
     
     Example:
