@@ -55,7 +55,7 @@ The buttons are quite self explanatory,
 
 
 * **Input Data**, when pressing this button, a window will pop up and 3 input values should be given:
-  * **Data points** where you indicate the number of data points to extract (The maximum number able to be introduced is 100, but this can be changed on the _input_dialog2.py_ file.)
+  * **Data points** where you indicate the number of data points to extract (The maximum number able to be introduced is 1000, but this can be changed on the _input_dialog2.py_ file.)
   * **Top Value**, which is where you indicate the _Y_ axis top value and finally 
   * **Value** window, where you indicate the top _x_ value axis.
 
