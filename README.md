@@ -3,17 +3,17 @@
 
 SIMPLE plot digitizer.
 
-I wrote this code when working on a project where I had to extract quite a bit of data points from literature. I did not want to upload every time a picture into a plot digitizer, so I included a image crop option into the code.
+I wrote this code when working on a project where I had to extract quite a bit of data points from literature. I did not want to upload every time a picture into a plot digitizer, so I included a image **crop** option into the code in order to take a picture of your **desktop** and crop the image where the **graph is located**.
 
 No need to copy picture from PDF, since it has a selecting tool in order for you to select the image and start extracting those points! And save them as well into an xlsx sheet. 
 
 * What can this thing do:
-   * Manually crop images from pdfs, and start extracting points out of them
+   * Manually crop images from pdfs, and manually mark the points you want to extract out of them
    * Save the extracted points into an **xlsx** sheet or look at them directly in the command window
    
 * What you **CAN'T** do:
    * Automatically detect points (nice feature to work in the near future)
-   * Upload images of your own
+   * Upload images of your own (Meaning that it only works with the cropped images from your desktop screen, which I believe is nicer)
 
 
 
