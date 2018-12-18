@@ -30,7 +30,8 @@ This code was written on `python==3.6.6`, but it should work on all python versi
 ```
 numpy==1.15.1
 matplotlib==3.0.0
-pyexcel==0.5.9.1
+pyexcel==0.5.9.1 and pyexcel-xlsx
+Pillow==5.3.0
 pyscreenshot==0.4.2
 XlsxWriter==1.1.2
 opencv_python==3.4.4.19
@@ -43,7 +44,7 @@ __1.-__ First, install all dependencies if needed.
 In ubuntu:
 
 ```
-pip install numpy==1.15.1 matplotlib==3.0.0 pyexcel==0.5.9.1 pyscreenshot==0.4.2 XlsxWriter==1.1.2 opencv_python==3.4.4.19 PyQt5==5.11.3
+pip install numpy==1.15.1 matplotlib==3.0.0 pyexcel==0.5.9.1 Pillow==5.3.0 pyscreenshot==0.4.2 XlsxWriter==1.1.2 opencv_python==3.4.4.19 PyQt5==5.11.3 pyexcel-xlsx
 ```
 __2.-__ After finishing the installation of all dependencies, copy into one folder all of the included files in this repository `check_dict.py, excel.py, input_dialog2.py` and `Plot_digitizer.py`. The latter will be the one which you will be executing as *python Plot_digitizer.py* on your command window. 
 
@@ -100,8 +101,6 @@ If everything has worked out fine, a window of the program should pop up on your
     ****************************************************************************
     Graph Number: 2
 
-
-    Log x value: [1.304321386719005, 2.7514424889794533, 6.183135888417593, 13.043213867190055]
     X value:     [5.769230769230765, 21.978021978021975, 39.560439560439555, 55.769230769230774]
     Y Value:     [0.8636363636363638, 0.8496503496503497, 0.7692307692307694, 0.6328671328671329]
 
@@ -110,8 +109,6 @@ If everything has worked out fine, a window of the program should pop up on your
     ****************************************************************************
 
     ```
-  
-    > **Note:** The `Log X value` title is there just in case the x axis from the plot is in log scale. Meaning that `log10(X value)` is not `Log X value`
     
 * **Check Input Data**:  Will print the current input data that was given.
     
