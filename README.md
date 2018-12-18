@@ -3,7 +3,7 @@
 
 SIMPLE plot digitizer.
 
-I wrote this code when working on a project where I had to extract quite a bit of data points from literature. I did not want to upload every time a picture into a plot digitizer, so I included a image **crop** option into the code in order to take a picture of your **desktop** and crop the image where the **graph is located**.
+I wrote this code when working on a project where I had to extract quite a bit of data points from literature. I did not want to upload every time a picture into a plot digitizer, so I included an image **crop** tool option into the code in order to take a picture of the **desktop** and crop the image where the **graph is located**.
 
 No need to copy picture from PDF, since it has a selecting tool in order for you to select the image and start extracting those points! And save them as well into an xlsx sheet. 
 
@@ -41,12 +41,14 @@ PyQt5==5.11.3
 ### Installing
 __1.-__ First, install all dependencies if needed. 
 
+>**Note:** You can probably create a virtual environment that includes all the following packages
+
 In ubuntu:
 
 ```
 pip install numpy==1.15.1 matplotlib==3.0.0 pyexcel==0.5.9.1 Pillow==5.3.0 pyscreenshot==0.4.2 XlsxWriter==1.1.2 opencv_python==3.4.4.19 PyQt5==5.11.3 pyexcel-xlsx
 ```
-__2.-__ After finishing the installation of all dependencies, copy into one folder all of the included files in this repository `check_dict.py, excel.py, input_dialog2.py` and `Plot_digitizer.py`. The latter will be the one which you will be executing as *python Plot_digitizer.py* on your command window. 
+__2.-__ After finishing the installation of all dependencies, copy or clone all of the included files in this repository into one folder, `check_dict.py, excel.py, input_dialog2.py` and `Plot_digitizer.py`. The latter will be the one which you will be executing as *`python Plot_digitizer.py`* on your command window. 
 
 __3.-__ Run the code as shown bellow and start extracting those points!
 
